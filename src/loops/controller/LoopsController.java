@@ -1,5 +1,7 @@
 package loops.controller;
 
+import java.util.ArrayList;
+
 public class LoopsController
 {
 
@@ -30,7 +32,18 @@ public class LoopsController
 		{
 			System.out.println("moooooooo!!!");
 		}
-	
+	private void forLoopTest()
+	{
+		ArrayList<String> animals = new ArrayList<String>();
+		animals.add("turtle");
+		animals.add("giraffe");
+		animals.add("rhino");
+		
+		for(String currentAnimal : animals)
+		{
+			System.println("current animal: " + currentAnimal);
+		}
+	}
 	
 	}
 	
